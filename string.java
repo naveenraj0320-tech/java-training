@@ -1,7 +1,14 @@
+import java.util.Scanner;
 public class string{
     public static void main(String agrs[]) {
-        String a1 = "naveen";
-        String q2= "naveen";
-        System.out.print(a1.equals(q2));
+        Scanner sc = new Scanner(System.in);
+        String csk = sc.nextLine();
+        if(csk.equals("win"))
+            {
+            System.out.print("CSK is the winner");
+        }
+        else{
+           System.out.print("CSK is the loser");
     }
+}
 }
