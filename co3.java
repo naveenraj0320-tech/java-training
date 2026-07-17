@@ -5,7 +5,8 @@ public class co3 {
         int a = sc.nextInt();
         int b = sc.nextInt();
         String result =(a>b?"a is greater ":"b is greater ");
-        System.out.println(result);     
+        System.out.println(result);
+
     }
     
 }
